@@ -1,17 +1,11 @@
 // ==UserScript==
-// @name         TapSwap autoclick
-// @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  Running TapSwap in a browser
+// @name         TapSwap Autoclicker
+// @namespace    Violentmonkey Scripts
+// @match        *://*.tapswap.club/*
 // @author       handev
-// @match        *://app.tapswap.club/*
+// @version      1.1
 // @grant        none
-// @icon         https://raw.githubusercontent.com/oguzhanyazman/TapSwap-On-Webbrowser-AutoClicker/main/output_2410894730_1.jpg
-// @downloadURL  https://github.com/oguzhanyazman/TapSwap-On-Webbrowser-AutoClicker/raw/main/autoclick.js
-// @updateURL    https://github.com/oguzhanyazman/TapSwap-On-Webbrowser-AutoClicker/raw/main/autoclick.js
-// @homepage     https://github.com/oguzhanyazman/TapSwap-On-Webbrowser-AutoClicker
 // ==/UserScript==
-
 
 const minClickDelay = 30;
 const maxClickDelay = 50;
